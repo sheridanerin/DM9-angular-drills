@@ -1,7 +1,11 @@
 <html ng-app="apiApp">
-	<body>
+	<body ng-controller="apiCtrl">
+
+		<button ng-click="getPokemon()">GET POKEMON</button>
+
+		{{pokemon}}
 		
-				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
 		<script src="service.js"></script>
